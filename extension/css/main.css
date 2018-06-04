@@ -1,0 +1,49 @@
+#metafilter-zen-overlay {
+    opacity: 0.98;
+    background-color: white;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 10000;
+}
+#metafilter-zen-circle-container {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#metafilter-zen-circle-outer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 1000px;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+}
+#metafilter-zen-text-inner {
+    font-size: 2em;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    opacity: 0.95;
+    color: white;
+    height: 30%;
+    width: 100%;
+    line-height: 0;
+}
+#metafilter-zen-circle-inner {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 1000px;
+    opacity: 0.2;
+    transform: scale(0.2);
+    background-color: #6495ed;
+}
